@@ -1,0 +1,62 @@
+/*Começo da estilização do form da calculadora - parte de fora*/
+.bannerteste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 500px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 500px;
+  /*Bordas arredondadas*/
+  border-radius: 8px;
+  color: black;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 10px 10px 40px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 40px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 40px -4px rgba(0, 0, 0, 0.75);
+  margin-bottom: 3%;
+}
+
+/*Resultado da conta*/
+#resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+input {
+  padding: 10px 35px;
+  margin-left: 50px;
+  border: none;
+  border-bottom: 2px solid #67832c;
+
+}
+
+p {
+  margin-left: 50px;
+}
+
+.btcal {
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #67832c;
+  background-color: #67832c;
+  border-radius: 3%;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-left: 90px;
+  cursor: pointer;
+  color: white;
+
+}

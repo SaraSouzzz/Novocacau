@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="style/navfooter.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cacloud</title>
+</head>
+
+<body>
+    <ul>
+        <div>
+            <a href=""><img src="style/imgs/logos/logo-preto-semletra.png" alt=""></a>
+        </div>
+        <div class="navbar-itens">
+            <a href="">
+                <li>Inicio</li>
+            </a>
+            <a href="simulador.html">
+                <li>Simulador</li>
+            </a>
+            <a href="">
+                <li>Login</li>
+            </a>
+
+            <a href="cadastro.html">
+                <li class="button-navbar">Cadastro</li>
+            </a>
+        </div>
+    </ul>
+    <div id="main_with_img" class="main">
+        <div class="container">
+            <div class="phrase">
+                <h1 class="cacloud">C A C L O U D</h1>
+                <h2>Para colher desenvolvimento, você precisa plantar inovação.</h2>
+                <div class="phrase-buttons">
+                    <a href="" class="know-more">
+                        Conheça mais
+                    </a>
+                    <a href="" class="questions">
+                        Dúvidas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main_with_chocolate" class="main">
+        <div class="container">
+            <div class="text-about">
+                <h1>
+                    Oque é a Cacloud?
+                </h1>
+                <p>
+                    A Cacloud é uma empresa de tecnologia especializada em coleta de dados de temperatura do solo em
+                    lavouras de cacau.
+                </p>
+                <p>
+                    Nosso objetivo como empresa é auxiliar o agricultor a oranizar e monitorar seu negócio, sua
+                    plantação e assim amenizar as perdas ocasionadas pela falta de manutenção.
+                    Com a tecnologia do Arduino implantado no solo, coletamos e transformamos esses dados em informações
+                    que são enviadas em gráficos no nosso site para o agricultor ter melhor noção do que está ocorrendo
+                    na sua lavoura, assim podendo ter a melhor tomada de decisão para ter um cultivo de ótima qualidade.
+                </p>
+                <a href="" class="button-about">
+                    Sabia mais sobre nós
+                </a>
+            </div>
+            <a class="card-calculator" href="simulador.html">
+                <div class="calc">
+                    <img src="./style/imgs/icons/calc-icon.png" alt="">
+                </div>
+                <h4>
+                    Faça uma projeção de ganhos estimados.
+                </h4>
+            </a>
+        </div>
+    </div>
+    <div class="main">
+        <div id="bigcard-container" class="container">
+            <div id="first-bigcard" class="bigcard">
+                <h1>Visão</h1>
+                <p>Nós queremos ser a empresa refêrencia no combate a extinção do cacau.
+                </p>
+            </div>
+            <div class="bigcard">
+                <h1>Missão</h1>
+                <p>Preservar as lavouras de cacau para que em um futuro próximo o cacau não entre em extinção.</p>
+            </div>
+            <div class="bigcard">
+                <h1>Valores</h1>
+                <p>Presamos o respeito ao próximo e pelo nosso meio ambiente.</p>
+            </div>
+        </div>
+    </div>
+    <h1 style="display: flex; justify-content: center;">Nossos parceiros</h1>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+
+            <img src="https://logodownload.org/wp-content/uploads/2017/07/cacau-show-logo-1.png" style="width:450px">
+
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://imagensemoldes.com.br/wp-content/uploads/2018/03/Chocolate-Garoto-Logo-Vetorizado-e-PNG-1280x720.png"
+                style="width:250px">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="https://companieslogo.com/img/orig/LISN.SW_BIG-ba5e7260.png?t=1597871861" style="width:450px">
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="https://1.bp.blogspot.com/-eW8WJOr9wZ0/Ws_IpFikQ1I/AAAAAAABqEg/DGmfBMerz9c_HdXLfKbeXj7DCXSbH0zFgCLcBGAs/s1600/kope%2Blogo.jpg"
+                style="width:450px">
+
+        </div>
+        <div class="mySlides fade">
+
+            <img src="https://shojiki.vn/template/uploads/2021/04/nestle-logo.jpg" style="width:450px">
+
+        </div>
+
+    </div>
+    <br>
+    <footer>
+        <div class="footer">
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Simulador</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Cacloud Copyright © 2022 Sptech - All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+</script>

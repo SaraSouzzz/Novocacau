@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(imgs/cacaugalho.svg);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --main-green: #5E8C30;
+}
+
+ul {
+    font-weight: 500;
+    color: white;
+    padding: 1%;
+    height: 60px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-green);
+    font-weight: bold;
+}
+
+.navbar-itens {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navbar-itens a {
+    color: white;
+}
+
+.button-navbar {
+    box-sizing: border-box;
+    background-color: var(--main-green);
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.585));
+    padding: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2%;
+    height: 93vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container h1 {
+    font-size: 50px;
+  
+}
+
+.cadastro-form {
+    height: 400px;
+    width: 600px;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-container input {
+    box-sizing: border-box;
+    padding: 1%;
+    filter: drop-shadow(1px 1px 2px #4c7524de);
+    outline: none;
+    border-radius: 5px;
+    width: 48%;
+    height: 50px;
+    border: none;
+}
+
+.input-container button {
+    outline: none;
+    background-color: #16171B;
+    cursor: pointer;
+    background-color: var(--main-green);
+    font-weight: bold;
+    border-radius: 5px;
+    width: 48%;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.585));
+    height: 50px;
+    color: white;
+    border: none;
+}
+
+#login {
+    width: 100%;
+}
